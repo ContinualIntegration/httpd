@@ -20,5 +20,3 @@ supports 'opensuseleap'
 source_url 'https://github.com/chef-cookbooks/httpd'
 issues_url 'https://github.com/chef-cookbooks/httpd/issues'
 chef_version '>= 12.7' if respond_to?(:chef_version)
-
-depends 'httpd'
